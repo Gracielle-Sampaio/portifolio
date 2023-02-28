@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Tilt+Neon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Tilt Neon', cursive;
+}
+
+h1, h2{
+    font-family: 'Carter One', cursive;
+}
+
+:root{
+    --color1: #f3d597 ;
+    --color2: #b6d89c;
+    --color3: #92ccb6;
+    --color4: #f87887;
+    --color5: #9e6b7c;
+
+  
+}
+body{
+    background-color: var(--color1);
+    
+}
+.principal{
+    background-image: url(../imagens/fundo.jpg);
+}
