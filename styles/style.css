@@ -47,23 +47,27 @@ body{
 
 }
 header{
-    padding: 20px;
+    padding: 20px ;
+    display: flex;
+    justify-content: space-around;
 }
 header a{
     border: 2px solid var(--color5);
     border-radius: 20px;
-    padding: 8px;
-    margin: 10px;
+    padding: 8px 50px;
+    margin:10px 15px ;
     color: var(--color5);
     text-decoration-line: none;
     font-weight: bold;
+    
 }
 
 header a:hover{
     background-color: var(--color5);
     color: white;
     border-radius: 30px;
-    padding: 12px;
+    padding: 10px 53px;
+    margin:10px 15px ;
 }
 main {
     height: 400px;
