@@ -107,14 +107,14 @@ button:hover{
 }
 
 .slider{
-    margin: 0 auto;
+    margin: 15px auto;
     width: 800px;
-    height: 400px;
+    height: 400%;
     overflow: hidden;
 }
 .slides{
     width: 400%;
-    height: 400%;
+    height: 400px;
     display: flex;
 }
 .slides input{
@@ -123,6 +123,7 @@ button:hover{
 .slide{
     width: 25%;
     position: relative;
+    transition: 2s;
 }
 .slide img{
     width: 800px;
@@ -130,7 +131,7 @@ button:hover{
 .manual-navigation{
     position: absolute;
     width: 800px;
-    margin-top: -65%;
+    margin-top: -40px;
     display: flex;
     justify-content: center;
 }
@@ -147,6 +148,7 @@ button:hover{
 .manual-btn:hover{
     background-color: var(--color4);
 }
+
 #radio1:checked ~ .first{
     margin-left: 0;
 }
@@ -161,7 +163,7 @@ button:hover{
 }
 
 .navigation-auto div{
-    border: 2px solid var(--color3);
+    border: 2px solid var(--color4);
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -170,7 +172,7 @@ button:hover{
 .navigation-auto{
     position: absolute;
     width: 800px;
-    margin-top: 364px;
+    margin-top: 360px;
     display: flex;
     justify-content: center;
 }
@@ -178,14 +180,14 @@ button:hover{
     margin-right: 40px;
 }
 #radio1:checked ~ .navigation-auto .auto-btn1{
-    background-color: var(--color3);
+    background-color: var(--color4);
 }
 #radio2:checked ~ .navigation-auto .auto-btn2{
-    background-color: var(--color3);
+    background-color: var(--color4);
 }
 #radio3:checked ~ .navigation-auto .auto-btn3{
-    background-color: var(--color3);
+    background-color: var(--color4);
 }
 #radio4:checked ~ .navigation-auto .auto-btn4{
-    background-color: var(--color3);
+    background-color: var(--color4);
 }
